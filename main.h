@@ -10,6 +10,12 @@
 #define NULL_STRING "(null)"
 #define NUL '\0'
 
+/**
+ * struct convert - defines a structure for symbols and functions
+ *
+ * @sym: The operator
+ * @f: The function associated
+ */
 struct convert
 {
 	char *sym;
@@ -23,7 +29,7 @@ int print_char(va_list);
 int print_String(va_list val);
 int format_receiver(const char *format, conver_t f_list[], va_list arg_list);
 int print_percent(va_list);
-int isNonAlphaNumeric(char c); 
+int isNonAlphaNumeric(char c);
 char *convert(unsigned long int num, int base, int lowercase);
 int _puts(char *str);
 
