@@ -36,6 +36,9 @@ int print_rev(va_list l);
 int print_binary(va_list);
 int print_unsgined_number(unsigned int n);
 int print_integer(va_list);
+void write_base(char *str);
+char *rev_string(char *);
+unsigned int base_len(unsigned int, int);
 
 int print_number(va_list args);
 
