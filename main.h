@@ -32,6 +32,9 @@ int print_percent(va_list);
 int isNonAlphaNumeric(char c);
 char *convert(unsigned long int num, int base, int lowercase);
 int _puts(char *str);
+int print_rev(va_list l);
+int print_binary(va_list);
+int print_unsgined_number(unsigned int n);
 
 
 
