@@ -38,7 +38,9 @@ int print_unsgined_number(unsigned int n);
 int print_integer(va_list);
 
 int print_number(va_list args);
-
+unsigned int base_len(unsigned int, int);
+void write_base(char *str);
+char *rev_string(char *);
 
 
 #endif
