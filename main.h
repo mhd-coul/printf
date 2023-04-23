@@ -41,7 +41,9 @@ char *rev_string(char *);
 unsigned int base_len(unsigned int, int);
 
 int print_number(va_list args);
-
+unsigned int base_len(unsigned int, int);
+void write_base(char *str);
+char *rev_string(char *);
 
 
 #endif
