@@ -2,7 +2,7 @@
 
 /**
  * print_String - print exclusuives str.
- * @val: argumen t.
+ * @l: a argument
  * Return: the length of the str.
  */
 
