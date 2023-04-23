@@ -41,7 +41,6 @@ char *rev_string(char *);
 unsigned int base_len(unsigned int, int);
 int print_unsigned_integer(va_list);
 int print_octal(va_list list);
-int print_hex(va_list list);
 int print_HEX(va_list list);
 int print_number(va_list args);
 char *_memcpy(char *dest, char *src, unsigned int n);
