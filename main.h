@@ -45,6 +45,7 @@ int print_hex(va_list list);
 int print_HEX(va_list list);
 int print_number(va_list args);
 char *_memcpy(char *dest, char *src, unsigned int n);
+int hex_check(int num, char x);
 
 
 #endif
