@@ -23,6 +23,7 @@ int _printf(const char *format, ...)
 		{"S", print_String},
 		{"p", print_pointer},
 		{"r", print_rev},
+		{"R", print_rot13},
 		{NULL, NULL},
 
 

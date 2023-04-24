@@ -47,6 +47,7 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 int hex_check(int num, char x);
 int print_pointer(va_list val);
 int print_hex_aux(unsigned long int num);
+int print_rot13(va_list list);
 
 
 #endif
