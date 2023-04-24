@@ -13,13 +13,14 @@ int _printf(const char *format, ...)
 	conver_t f_list[] = {
 		{"%", print_percent},
 		{"c", print_char},
-		{"s", print_String},
+		{"s", print_string},
 		{"d", print_integer},
 		{"i", print_integer},
 		{"b", print_binary},
 		{"u", print_unsigned_integer},
 		{"o", print_octal},
 		{"X", print_HEX},
+		{"S", print_String},
 		{NULL, NULL},
 
 
