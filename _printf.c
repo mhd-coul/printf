@@ -13,7 +13,7 @@ int _printf(const char *format, ...)
 	conver_t f_list[] = {
 		{"%", print_percent},
 		{"c", print_char},
-		{"s", print_string},
+		{"s", print_String},
 		{"d", print_integer},
 		{"i", print_integer},
 		{"b", print_binary},
