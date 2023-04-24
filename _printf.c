@@ -22,6 +22,7 @@ int _printf(const char *format, ...)
 		{"X", print_HEX},
 		{"S", print_String},
 		{"p", print_pointer},
+		{"r", print_rev},
 		{NULL, NULL},
 
 
